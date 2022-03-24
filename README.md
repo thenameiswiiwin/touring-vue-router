@@ -21,7 +21,9 @@ ___
 #### Problem: How do we read query parameters off the URL?
 ---
 - Often when we write pagination, we might have a URL that looks like this:
-```http://example.com/events?page=4``
+```
+http://example.com/events?page=4
+```
 
 How can we get access to "page" inside our component?
 
