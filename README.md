@@ -12,7 +12,7 @@
 ```
 ---
 
-# Receiving URL Parameters
+# 1. Receiving URL Parameters
 
 ## Overview:
 
