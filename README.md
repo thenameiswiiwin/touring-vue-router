@@ -13,9 +13,10 @@
 ___
 
 ## Receiving URL Parameters
+
+#### Overview:
 ---
 Overview of all different ways we can receive and parse URL data into our components with Vue Router. This will ensure we have the tools we need to build pagination.
----
 
 #### Problem: How do we read query parameters off the URL?
 ---
@@ -23,7 +24,6 @@ Often when we write pagination, we might have a URL that looks like this:
 ```http://example.com/events?page=4``
 
 How can we get access to "page" inside our component?
----
 
 #### Solution: $route.query.page
 ---
@@ -40,12 +40,10 @@ computed: {
   },
 }
 ```
----
 
 #### Problem: What if we wanted the page to be part of the URL?
 ---
 There are some cases in web development wher you might want the page number to be an actual part of the url, instead of in the query parameters (which come after a question mark).
----
 
 #### Solution: Route Parameter
 ---
@@ -63,7 +61,6 @@ Then inside our event component, we could access this in the template as such:
 ```
 
 Notice that in this case we are using "$route.params" instead of "$route.query" as we did above.
----
 
 #### Bonus: Passing Params as Props
 ---
