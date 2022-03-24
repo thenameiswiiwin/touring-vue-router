@@ -16,7 +16,7 @@
 
 # 1. Receiving URL Parameters
 
-## Overview:
+> ## Overview:
 
 Overview of all different ways we can receive and parse URL data into our components with Vue Router. This will ensure we have the tools we need to build pagination.
 
