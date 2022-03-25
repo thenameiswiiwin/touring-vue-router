@@ -155,6 +155,7 @@ const routes = [
 Notice we’re sending in an anonymous function which receives the "route" as an argument, then pulls out the query parameter called "e" and maps that to the "showExtra" prop.
 
 The anonymous function above could also be written like:
+
 ```JavaScript
 props: route => {
   return { showExtra: route.query.e }
@@ -170,5 +171,3 @@ It’s a little more verbose, but I wanted to show you this to remind you that y
 > ## Overview:
 
 Pagination is a very common piece of functionality, found in many applications.
-
-
